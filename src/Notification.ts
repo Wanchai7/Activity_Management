@@ -9,7 +9,4 @@ class Notification{
         this.message = message;
         this.status = status;
     }
-    public method():type{
-        
-    }
 }
