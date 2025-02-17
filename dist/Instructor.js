@@ -13,7 +13,12 @@ class Instructor extends User_1.User {
     approvePaticipant(activity, participant, registrations) {
         activity.approveParticipant(participant, registrations);
     }
-    issueCertificate() {
+    issueCertificate(Activity, participant, registration, tamplate) {
+        return activity.generatrCertificate(registration, this, this.username, '');
+    }
+    searchActivity() {
+        let activity = Activity_1.Activity.searchActivity();
+        return activity;
     }
 }
 exports.Instructor = Instructor;

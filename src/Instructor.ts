@@ -1,7 +1,8 @@
  import { Activity } from "./Activity"
 import { Registration } from "./Registration"
-import { User } from "./User"
+import { User } from './User';
 import { Certificate } from "./Certificate"
+import { Participant } from "./Participant"
  class Instructor extends User{
     constructor(username:string , password:string , name:string , role:string ,email:string){
         super(username, password ,name ,role  ,email)
@@ -15,10 +16,13 @@ import { Certificate } from "./Certificate"
         activity.approveParticipant(participant,registrations)
     }
 
-    public issueCertificate():void{
-
+    public issueCertificate(Activity:Activity , participant:Participant , registration:Registration[] , tamplate:string):void{
+        return activity.generatrCertificate(registration,this,this.username,'')
     }
-    public searchActivity():Activity[]
+    public searchActivity():Activity[]{
+        let activity =Activity.searchActivity()
+        return activity
+    }
 }
 
 export {Instructor}

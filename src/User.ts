@@ -1,5 +1,5 @@
 export class User{
-    private username: string
+    protected username: string
     private password :string
     private name :string
     private role :string
