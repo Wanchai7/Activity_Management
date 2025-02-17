@@ -17,7 +17,7 @@ console.log(pa2.toString())
 // const ins = new Instructor('')
 // === Activity === //
 // const ac1 = new Activity(1, 'drawing' , 'Wanchai' , 150 , ' วัน 17 เดือน กุมภาพันธ์ 10:00 - 22:00 ' ,'วันที่ 14 ถึง 17' , 'published' , true , true , ins ,'sch'  )
-const ac2 = new Activity(2, 'gamming' , 'Kero' , 150 , ' วัน 17 เดือน กุมภาพันธ์ 10:00 - 22:00 ' ,'วันที่ 14 ถึง 17' , 'published' , true , true , ins , 'sch' )
+// const ac2 = new Activity(2, 'gamming' , 'Kero' , 150 , ' วัน 17 เดือน กุมภาพันธ์ 10:00 - 22:00 ' ,'วันที่ 14 ถึง 17' , 'published' , true , true , ins , 'sch' )
 
 // let reg = new Registration(1, pa1, ac1, 'รออุมัติ')
 // console.log(reg.toString())

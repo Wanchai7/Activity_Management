@@ -32,16 +32,16 @@ class Activity {
     }
 
     public createActivity():void{
-        this.activityId = activityId,
-        this.name = name,
-        this.organizer = organizer,
-        this. maxParticipant = maxParticipant,
-        this. activityPeriod = activityPeriod,
-        this.registrationPeriod = registrationPeriod,
-        this.status = status,
-        this.approvalRequired = approvalRequired,
-        this.cortificateIssued = cortificateIssued,
-        this.instructor = instructor,
+        this.activityId = activityId
+        this.name = name
+        this.organizer = organizer
+        this. maxParticipant = maxParticipant
+        this. activityPeriod = activityPeriod
+        this.registrationPeriod = registrationPeriod
+        this.status =status
+        this.approvalRequired = approvalRequired
+        this.cortificateIssued = cortificateIssued
+        this.instructor = instructor
         this.schedule = schedule
     }
 

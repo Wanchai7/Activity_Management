@@ -1,4 +1,5 @@
 import { Instructor } from "./Instructor"
+ 
 class Certificate{
     private certificateId:number
     private content:string

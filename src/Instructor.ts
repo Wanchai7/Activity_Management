@@ -1,7 +1,8 @@
  import { Activity } from "./Activity"
 import { Registration } from "./Registration"
 import { User } from "./User"
- class Instructor {
+import { Certificate } from "./Certificate"
+ class Instructor extends User{
     constructor(username:string , password:string , name:string , role:string ,email:string){
         super(username, password ,name ,role  ,email)
     }
