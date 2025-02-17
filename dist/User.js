@@ -9,6 +9,9 @@ class User {
         this.role = role;
         this.email = email;
     }
+    getEmail() {
+        return this.email;
+    }
     register(username, password) {
         console.log("ลงทะเบียนสำเร็จ");
         return true;

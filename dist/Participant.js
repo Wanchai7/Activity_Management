@@ -5,12 +5,13 @@ const User_1 = require("./User");
 const Registration_1 = require("./Registration");
 const Instructor_1 = require("./Instructor");
 const Certificate_1 = require("./Certificate");
+const Activity_1 = require("./Activity");
 class Participant extends User_1.User {
     constructor(username, password, name, role, email) {
         super(username, password, name, role, email);
     }
     searchActivity() {
-        let activity = Activity.searchActivity();
+        let activity = Activity_1.Activity.searchActivity();
         return activity;
     }
     registerForActivity(activity) {

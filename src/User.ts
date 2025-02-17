@@ -13,6 +13,11 @@ export class User{
         this.role=role
         this.email=email
     }
+
+    public getEmail():string{
+        return this.email
+    }
+
     public register(username:string,password:string):boolean{
         console.log ("ลงทะเบียนสำเร็จ")
         return true

@@ -13,11 +13,11 @@ class Certificate{
         this.template=template
 
     }
-    public generateCertificate():Certificate{
+    public static generateCertificate():Certificate{
         return new Certificate(this.certificateId,this.content,this.issuer,this.signature,this.template)
     }
     public sendCertificateNotification():void{
-        let pa = new Notification(1,"พร้อมให้ดาวน์โหลดแล้ว",new ,)
+        let pa = new Notification(1,"พร้อมให้ดาวน์โหลดแล้ว",new , '')
     }
     public toString():string{
         return `Certificate[certificateId=${this.certificateId}, content=${this. content},issuer=${this.issuer},signature=${this.signature},template=${this.template}]`

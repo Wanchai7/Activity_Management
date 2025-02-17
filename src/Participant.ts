@@ -2,7 +2,7 @@ import { User } from "./User";
 import { Registration } from './Registration'
 import { Instructor } from "./Instructor";
 import { Certificate } from "./Certificate";
-
+import { Activity } from "./Activity";
 class Participant extends User {
 
 

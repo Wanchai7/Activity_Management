@@ -1,5 +1,5 @@
 import { Participant } from './Participant'
-
+import { Activity } from './Activity'
 class Registration {
 
     private registrationId: number
@@ -23,6 +23,11 @@ class Registration {
 
     public updateStatus(status: string): void {
         this.status = status
+    }
+
+    
+    public getParticipant():Participant{
+        return this.participant
     }
 
     public toString():string{

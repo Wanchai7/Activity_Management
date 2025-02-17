@@ -17,6 +17,9 @@ class Registration {
     updateStatus(status) {
         this.status = status;
     }
+    getParticipant() {
+        return this.participant;
+    }
     toString() {
         return `Registration[registrationId=${this.registrationId}, participant=${this.participant}, activity=${this.activity}, status=${this.status}]`;
     }
